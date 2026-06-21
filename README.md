@@ -40,7 +40,7 @@ https://github.com/MinweiZhao/GBA-GCs
 The MCGC checkpoint is distributed through the public repository's GitHub Releases, not through this controlled-access documentation repository:
 
 - Release: https://github.com/MinweiZhao/GBA-GCs/releases/tag/v2026-06-mcgc
-- Asset: `mcgc_trimodal_io_fused_gba_full.pth`
+- Asset: `trimodal_io_fused_gba_full.pth`
 - SHA-256: `48518dafd9b2e2702db812ae9977bc6699bbc2e55c4a8044bd7d993114ebb1b8`
 
 Controlled raw data access remains subject to DUA review. The public checkpoint does not grant permission to redistribute AOI polygons, names, provider identifiers, raw image chips, or provider-derived metadata.
