@@ -1,8 +1,10 @@
 # GBA-GCs Controlled Access Request Portal
 
-This repository is the controlled-access request portal for non-public components of the GBA-GCs dataset associated with the ECCV 2026 paper:
+This repository is the controlled-access request portal for non-public components of the maintained GBA-GCs dataset release associated with the ECCV 2026 paper:
 
 **Urban Boundaries, Social Barriers: A Benchmark and Vision-Centric Framework for Mapping Gated Communities and Equity Implications**.
+
+The ECCV paper reports the original benchmark and experiments. The public and controlled repositories document a maintained release that is based on the paper dataset and further refined after acceptance, including expanded mainland AOI coverage and a separate Hong Kong/Macao diagnostic component.
 
 The raw archives are **not hosted on GitHub**. This repository contains only:
 
