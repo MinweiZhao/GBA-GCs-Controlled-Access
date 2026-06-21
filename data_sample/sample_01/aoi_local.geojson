@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample_01_local_aoi_preview",
+  "crs_note": "Local normalized tile coordinates only; not geographic coordinates.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sample_id": "sample_01",
+        "geometry_role": "aoi_boundary_preview",
+        "coordinate_system": "local_normalized_tile_xy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.18, 0.78],
+            [0.12, 0.34],
+            [0.40, 0.18],
+            [0.76, 0.22],
+            [0.88, 0.58],
+            [0.62, 0.84],
+            [0.18, 0.78]
+          ]
+        ]
+      }
+    }
+  ]
+}

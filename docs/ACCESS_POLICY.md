@@ -28,9 +28,8 @@ Requests are reviewed against:
 ## Request Workflow
 
 1. Complete `forms/ACCESS_REQUEST_FORM.md`.
-2. Send the form, institutional email, and signed DUA to the maintainers.
+2. Send the form, institutional email, and signed DUA to `m.zhao@connect.hkust-gz.edu.cn`.
 3. Maintainers review purpose, risk, and requested components.
 4. If approved, archives are distributed through access-controlled storage, not public GitHub.
 5. Requester verifies received files using `metadata/checksums_sha256.txt`.
 6. Requester follows all storage, reporting, and deletion requirements.
-

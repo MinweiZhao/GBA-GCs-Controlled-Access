@@ -15,6 +15,8 @@ The raw archives are **not hosted on GitHub**. This repository contains only:
 
 Controlled components include AOI geometries, community names or provider identifiers when present, raw image chips, and provider-derived metadata. These files are distributed only after request review and signature of a non-commercial data-use agreement.
 
+Contact: `m.zhao@connect.hkust-gz.edu.cn`
+
 ## Dataset Slice Preview
 
 The preview below shows a small set of de-identified, low-resolution remote-sensing tile thumbnails from the controlled data format. These thumbnails are for documentation only. They do not include AOI IDs, names, addresses, coordinates, provider identifiers, or metadata, and they are not a substitute for access to the controlled archives.
@@ -23,13 +25,21 @@ The preview below shows a small set of de-identified, low-resolution remote-sens
   <img src="assets/sample_tiles/sample_montage.png" alt="De-identified sample remote-sensing tiles" width="95%">
 </p>
 
+The `data_sample/` folder provides three small preview records. Each sample includes:
+
+- `metadata.json`: de-identified record metadata and label fields.
+- `aoi_local.geojson`: AOI geometry in local normalized tile coordinates, not real-world coordinates.
+- `remote_sensing_tile.png`: a stripped, low-resolution remote-sensing thumbnail.
+
+Approved controlled access may provide full CRS-aware AOI geometries, image chips, provider-derived metadata, and human-label files under the DUA.
+
 ## How To Request Controlled Data
 
 1. Review `docs/ACCESS_POLICY.md` and `docs/CONTROLLED_RELEASE_POLICY.md`.
 2. Check `metadata/full_archive_manifest.csv` and `metadata/checksums_sha256.txt` to identify the components needed for your project.
 3. Fill in `forms/ACCESS_REQUEST_FORM.md`.
 4. Fill and sign `docs/DUA_TEMPLATE.md` using an institutional email and accountable institutional affiliation.
-5. Send the completed request form and signed DUA to the maintainers through a private channel. Do not upload signed DUAs, personal information, or sensitive research details to public GitHub issues.
+5. Send the completed request form and signed DUA to `m.zhao@connect.hkust-gz.edu.cn`. Do not upload signed DUAs, personal information, or sensitive research details to public GitHub issues.
 6. If approved, the maintainers will provide access-controlled storage links for the approved archives.
 7. Verify received archives against `metadata/checksums_sha256.txt` before use.
 
@@ -46,6 +56,7 @@ Requests should explain why the public anonymized release is insufficient and sh
 - `metadata/checksums_sha256.txt`: checksum list for approved archive verification.
 - `metadata/guangzhou_human_label_manifest.csv`: Guangzhou human-label inventory.
 - `metadata/manifest.json`: count summary and access level.
+- `data_sample/`: small de-identified JSON, AOI, and remote-sensing preview records.
 - `examples/controlled_manifest_schema.csv`: example schema, no raw data.
 - `examples/approved_use_cases.md`: examples of permitted and prohibited uses.
 

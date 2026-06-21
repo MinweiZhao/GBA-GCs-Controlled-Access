@@ -1,5 +1,7 @@
 # GBA-GCs Controlled Access Request Form
 
+Submit the completed form and signed DUA to `m.zhao@connect.hkust-gz.edu.cn`. Do not submit personal information or signed agreements through public GitHub issues.
+
 Requester name:
 
 Institution:
@@ -42,4 +44,3 @@ Agreement to prohibited-use restrictions:
 Signature:
 
 Date:
-

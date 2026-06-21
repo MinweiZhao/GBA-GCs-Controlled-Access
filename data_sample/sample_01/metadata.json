@@ -1,0 +1,38 @@
+{
+  "sample_id": "sample_01",
+  "access_level": "public_preview_deidentified",
+  "city": "Guangzhou",
+  "dataset_split_example": "guangzhou_human_labeled_preview",
+  "label_schema": {
+    "target": "gated_open_residential_compound",
+    "label": "gated",
+    "label_source": "human_annotation_preview"
+  },
+  "controlled_fields_demonstrated": {
+    "aoi_geometry": "aoi_local.geojson",
+    "remote_sensing_tile": "remote_sensing_tile.png",
+    "record_metadata": "metadata.json"
+  },
+  "representative_structured_features": {
+    "area_m2_bin": "10k_25k",
+    "far_bin": "1_2",
+    "poi_count_bin": "5_20",
+    "poi_density_bin": "medium"
+  },
+  "image_metadata_preview": {
+    "tile_size_px": [220, 220],
+    "channels": 3,
+    "image_type": "low_resolution_preview_thumbnail",
+    "full_controlled_package_note": "Approved archives may include source image chips and CRS-aware transforms under DUA."
+  },
+  "withheld_from_public_preview": [
+    "real_aoi_id",
+    "community_name",
+    "address",
+    "provider_uid",
+    "real_centroid",
+    "real_projected_geometry",
+    "raster_source_name",
+    "full_resolution_image"
+  ]
+}
