@@ -1,0 +1,19 @@
+{
+  "name": "GBA-GCs controlled-access documentation manifest",
+  "raw_archives_hosted_here": false,
+  "access_level": "controlled_non_commercial_dua_required",
+  "mainland_benchmark_aoi": 46747,
+  "hk_macao_transfer_diagnostic_aoi": 10323,
+  "organized_total_aoi": 57070,
+  "guangzhou_human_label_local_file_pairs": 5345,
+  "training_metadata_total_samples": 5268,
+  "restricted_fields": [
+    "names",
+    "addresses",
+    "provider identifiers",
+    "coordinates",
+    "polygons",
+    "imagery",
+    "provider metadata"
+  ]
+}

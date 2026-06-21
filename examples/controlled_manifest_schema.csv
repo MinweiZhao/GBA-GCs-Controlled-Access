@@ -1,0 +1,2 @@
+component,archive_group,city,path_placeholder,sha256,restricted_fields,access_level
+gba_city_full_archive,mainland_gba,ExampleCity,controlled_storage/example.tar.gz,example_checksum,names;addresses;coordinates;polygons;imagery,controlled_dua_required
